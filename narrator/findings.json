@@ -1,0 +1,47 @@
+{
+    "data_quality": {
+        "raw_orders": 180,
+        "duplicate_orders_removed": 5,
+        "cleaned_orders": 175,
+        "missing_discounts_filled": 12,
+        "missing_ratings": 15
+    },
+
+    "overall_returns": {
+        "total_orders": 175,
+        "returned_orders": 44,
+        "return_rate_pct": 25.14
+    },
+
+    "return_rate_by_payment": {
+        "CARD": {
+            "total_orders": 68,
+            "returned_orders": 10,
+            "return_rate_pct": 14.71
+        },
+        "UPI": {
+            "total_orders": 53,
+            "returned_orders": 10,
+            "return_rate_pct": 18.87
+        },
+        "COD": {
+            "total_orders": 54,
+            "returned_orders": 24,
+            "return_rate_pct": 44.44
+        }
+    },
+
+    "monthly_revenue": {
+        "2026-01": 29582.10,
+        "2026-02": 13195.50,
+        "2026-03": 20318.90,
+        "2026-04": 9495.30,
+        "2026-05": 13151.10,
+        "2026-06": 11615.40
+    },
+
+    "rating_analysis": {
+        "missing_ratings": 15,
+        "average_rating": 3.01875
+    }
+}
